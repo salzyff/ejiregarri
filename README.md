@@ -1,6 +1,6 @@
 # Ejire Onigarri
 
-A responsive, dependency-free brand website with a forest-green, cream and terracotta visual direction. Illustrated packaging, bowl, basket and Nigerian-roots placeholders reuse the original Blaykik website’s CSS artwork, adapted for Ejire at the user's request. No generated raster imagery is included.
+A responsive, dependency-free brand website with a plum, blush and coral visual direction. Illustrated packaging, bowl, basket and Nigerian-roots placeholders retain the original placeholder motifs with consistent proportions and a distinct Ejire palette. No generated raster imagery is included.
 
 ## Run locally
 
@@ -28,9 +28,9 @@ Publicly sourced details:
 
 ## Placeholder artwork and real photographs
 
-`dist/artwork.css` adapts the original CSS illustrations from `salzyff/blaykik-store/src/styles.css` and `src/main.jsx` (initial Blaykik website). These are reusable code illustrations, not AI-generated raster images or actual Ejire product photographs. The pouch and gift-pack wording uses Ejire’s brand. No Blaykik certifications or product claims were carried across.
+The six `dist/assets/*-placeholder.svg` files are code-drawn vector placeholders. Each illustration has a fixed viewBox so its packaging, text and proportions scale together at every screen size. The motifs carry over the earlier pouch, bowl, gift, basket and Nigerian-roots placeholders; the palette and compositions are specific to Ejire. They are not AI-generated raster images or actual product photographs.
 
-The `.ejire-art` blocks in `dist/index.html` mark the placeholder positions. Replace the chosen block with a local `<img>` and meaningful `alt` text when approved photographs are available. Keep the surrounding layout classes. The serving tabs switch the three `[data-serving-art]` scenes in `dist/app.js`; update that handler when adding real photos. Add an approved social sharing image to the metadata before public launch.
+Replace the placeholder `<img>` sources and alt text in `dist/index.html` with approved photos when available. `dist/config.js` controls enquiry-bag thumbnails. The serving tab image sources are in `dist/app.js`.
 
 ## Repository
 

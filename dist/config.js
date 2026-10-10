@@ -6,8 +6,8 @@ window.EJIRE_CONFIG = Object.freeze({
   email: 'ejireonigarri@gmail.com',
   instagram: 'https://www.instagram.com/ejireonigari/',
   products: [
-    { id: 'garri', name: 'Your garri fix', kind: 'Garri enquiry', unit: 'pack(s)', image: null },
-    { id: 'souvenirs', name: 'Souvenir packs', kind: 'Souvenir enquiry', unit: 'pack(s)', image: null },
-    { id: 'bulk', name: 'A bigger helping', kind: 'Bulk enquiry', unit: 'request(s)', image: null }
+    { id: 'garri', name: 'Your garri fix', kind: 'Garri enquiry', unit: 'pack(s)', image: 'assets/garri-placeholder.svg' },
+    { id: 'souvenirs', name: 'Souvenir packs', kind: 'Souvenir enquiry', unit: 'pack(s)', image: 'assets/gift-placeholder.svg' },
+    { id: 'bulk', name: 'A bigger helping', kind: 'Bulk enquiry', unit: 'request(s)', image: 'assets/bulk-placeholder.svg' }
   ]
 });
