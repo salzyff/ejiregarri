@@ -77,7 +77,7 @@
       const row = document.createElement('div');
       row.className = 'bag-item';
       // All interpolated labels here come from the fixed, local catalogue.
-      row.innerHTML = `<div class="bag-item-icon" aria-hidden="true">✳</div><div class="bag-item-info"><h3>${product.name}</h3><p>${product.kind} · ${product.unit}</p></div><div><div class="quantity-controls"><button type="button" data-change="-1" aria-label="Decrease ${product.name} quantity">−</button><input type="number" min="1" max="10000" step="1" value="${item.quantity}" aria-label="Quantity for ${product.name}"><button type="button" data-change="1" aria-label="Increase ${product.name} quantity">+</button></div><button type="button" class="remove-item" aria-label="Remove ${product.name}">Remove</button></div>`;
+      row.innerHTML = `<div class="bag-item-icon ejire-art" aria-hidden="true"><div class="pouch"><span>EJIRE</span><strong>GARRI</strong></div></div><div class="bag-item-info"><h3>${product.name}</h3><p>${product.kind} · ${product.unit}</p></div><div><div class="quantity-controls"><button type="button" data-change="-1" aria-label="Decrease ${product.name} quantity">−</button><input type="number" min="1" max="10000" step="1" value="${item.quantity}" aria-label="Quantity for ${product.name}"><button type="button" data-change="1" aria-label="Increase ${product.name} quantity">+</button></div><button type="button" class="remove-item" aria-label="Remove ${product.name}">Remove</button></div>`;
       row.querySelectorAll('[data-change]').forEach((button) => {
         button.disabled = button.dataset.change === '-1' ? item.quantity === 1 : item.quantity === 10000;
         button.addEventListener('click', () => {
@@ -171,9 +171,9 @@
   window.addEventListener('resize', () => { if (window.innerWidth > 800) closeMenu(); });
 
   const moments = {
-    soak: { kicker: 'THE CLASSIC COMFORT', title: 'Cold water.<br>Good garri.<br><em>No long story.</em>', description: 'A splash of cold water, a little milk if that’s your thing, and groundnuts on the side. Some combinations just get you.', photo: 'Your serving photo here', tone: '#e0dbc7' },
-    share: { kicker: 'GOOD COMPANY, GOOD CRUNCH', title: 'Pull up a chair.<br><em>There’s a bowl<br>for you too.</em>', description: 'An afternoon catch-up. A familiar snack. Put a bowl on the table and let the conversation do its thing.', photo: 'Your sharing moment here', tone: '#d8ddca' },
-    gift: { kicker: 'A LITTLE JOY TO TAKE HOME', title: 'Not just a pack.<br><em>A thoughtful<br>little gesture.</em>', description: 'For guests, friends or someone who deserves a little something. Ask about souvenir options for your occasion.', photo: 'Your souvenir photo here', tone: '#e4cfc1' }
+    soak: { kicker: 'THE CLASSIC COMFORT', title: 'Cold water.<br>Good garri.<br><em>No long story.</em>', description: 'A splash of cold water, a little milk if that’s your thing, and groundnuts on the side. Some combinations just get you.', tone: '#e0dbc7' },
+    share: { kicker: 'GOOD COMPANY, GOOD CRUNCH', title: 'Pull up a chair.<br><em>There’s a bowl<br>for you too.</em>', description: 'An afternoon catch-up. A familiar snack. Put a bowl on the table and let the conversation do its thing.', tone: '#d8ddca' },
+    gift: { kicker: 'A LITTLE JOY TO TAKE HOME', title: 'Not just a pack.<br><em>A thoughtful<br>little gesture.</em>', description: 'For guests, friends or someone who deserves a little something. Ask about souvenir options for your occasion.', tone: '#e4cfc1' }
   };
   const tabs = $$('[data-moment]');
   function setMoment(button) {
@@ -183,10 +183,11 @@
     $('#moment-kicker').textContent = moment.kicker;
     $('#moment-title').innerHTML = moment.title;
     $('#moment-description').textContent = moment.description;
-    const placeholder = $('.moment-photo .photo-placeholder');
-    placeholder.querySelector('span').textContent = moment.photo;
-    placeholder.setAttribute('aria-label', `Photo placeholder: ${moment.photo}`);
-    placeholder.style.backgroundColor = moment.tone;
+    const artwork = $('.moment-photo .serving-art');
+    $$('[data-serving-art]').forEach((scene) => { scene.hidden = scene.dataset.servingArt !== button.dataset.moment; });
+    const descriptions = { soak: 'Illustrated bowl of garri, a serving placeholder', share: 'Illustrated Ejire garri pouch, a sharing placeholder', gift: 'Illustrated Ejire gift pack, a souvenir placeholder' };
+    artwork.setAttribute('aria-label', descriptions[button.dataset.moment]);
+    artwork.style.backgroundColor = moment.tone;
   }
   tabs.forEach((button, index) => {
     button.addEventListener('click', () => setMoment(button));

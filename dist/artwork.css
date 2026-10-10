@@ -1,0 +1,116 @@
+/* CSS product placeholders adapted from the original Blaykik website. */
+.ejire-art .sun-disc{position:absolute;width:440px;height:440px;border-radius:50%;background:linear-gradient(145deg,#e8b84d,#f1cc72);right:28px;top:55px;box-shadow:inset -30px -30px 60px rgba(153,95,21,.08)}
+.ejire-art .leaf{position:absolute;background:var(--green);border-radius:100% 0 100% 0;opacity:.9}
+.ejire-art .leaf-a{width:112px;height:48px;right:395px;top:78px;transform:rotate(-20deg)}
+.ejire-art .leaf-b{width:92px;height:40px;right:30px;bottom:64px;transform:rotate(22deg)}
+.ejire-art .hero-pouch{position:absolute;width:246px;height:342px;left:70px;top:132px;background:linear-gradient(150deg,#f4ead1,#e9d8b7);border:1px solid #d6c09a;border-radius:18px 18px 30px 30px;box-shadow:0 28px 60px rgba(58,45,18,.18);padding:35px 27px;transform:rotate(-5deg);display:flex;flex-direction:column;align-items:flex-start}
+.ejire-art .hero-pouch:before{content:"";position:absolute;top:18px;left:18px;right:18px;height:4px;border-top:1px dashed rgba(18,59,44,.3);border-bottom:1px dashed rgba(18,59,44,.2)}
+.ejire-art .hero-pouch .mini-brand{font-size:11px;letter-spacing:.26em;font-weight:800;color:var(--green)}
+.ejire-art .hero-pouch strong{font-family:var(--serif);color:var(--green);font-size:38px;line-height:.95;margin-top:46px}
+.ejire-art .hero-pouch small{font-size:8px;letter-spacing:.16em;color:#7c6a4b;font-weight:800;margin-top:14px}
+.ejire-art .hero-bowl{position:absolute;width:170px;height:72px;left:8px;bottom:30px;border-radius:0 0 80px 80px;background:#fcfbf6;box-shadow:0 14px 25px rgba(75,56,20,.12);transform:rotate(7deg)}
+.ejire-art .bowl-grain{position:absolute;width:148px;height:54px;left:11px;top:-15px;background:radial-gradient(circle at 30% 40%,#f4df9b 0 2px,transparent 2.4px),radial-gradient(circle at 70% 60%,#e9cd78 0 1.5px,transparent 2px),#edd58c;background-size:9px 8px,8px 8px;border-radius:50%}
+.ejire-art .product-art{height:100%;position:relative;display:grid;place-items:center}
+.ejire-art .pouch{width:138px;height:190px;background:linear-gradient(145deg,#f4ead2,#dfc796);border:1px solid #d0b985;border-radius:10px 10px 17px 17px;box-shadow:0 17px 28px rgba(83,55,14,.16);display:flex;flex-direction:column;padding:19px;align-items:center;justify-content:center;color:var(--green);transform:rotate(-3deg)}
+.ejire-art .pouch span,.ejire-art .basket span{font-size:7px;letter-spacing:.2em;font-weight:800}
+.ejire-art .pouch strong{font-family:var(--serif);font-size:25px;line-height:.9;text-align:center;margin:14px 0}
+.ejire-art .pouch small{font-size:4.5px;text-align:center;letter-spacing:.13em}
+.ejire-art .grain{position:absolute;background:#d8a24e;width:14px;height:9px;border-radius:50%}
+.ejire-art .grain-a{left:48px;bottom:48px;transform:rotate(30deg)}
+.ejire-art .grain-b{right:48px;top:57px;transform:rotate(-20deg)}
+.ejire-art .basket{position:absolute;bottom:49px;width:190px;height:85px;background:repeating-linear-gradient(0deg,#b77a35 0 5px,#a96b2e 5px 10px);border-radius:10px 10px 45px 45px;border:7px solid #925a25;color:#fff;display:flex;align-items:center;justify-content:center;flex-direction:column}
+.ejire-art .basket strong{font-family:var(--serif);font-size:17px}
+.ejire-art .basket-back{position:absolute;width:170px;height:120px;border:13px solid #9b612a;border-bottom:0;border-radius:80px 80px 0 0;bottom:99px}
+.ejire-art .food{position:absolute;border-radius:50%;bottom:119px;box-shadow:inset -6px -7px 12px rgba(0,0,0,.1)}
+.ejire-art .food-1{width:69px;height:69px;background:#8caa5a;left:55px}
+.ejire-art .food-2{width:64px;height:64px;background:#cc7b2c;right:57px}
+.ejire-art .food-3{width:52px;height:52px;background:#d4b44f;left:120px;bottom:126px}
+.ejire-art .gift-box{width:158px;height:173px;background:var(--green);border-radius:12px;box-shadow:0 18px 30px rgba(18,59,44,.2);color:#f7e7bc;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative}
+.ejire-art .gift-box span{font-family:var(--serif);font-size:28px;line-height:.9}
+.ejire-art .gift-box small{font-size:7px;margin-top:15px;letter-spacing:.12em}
+.ejire-art .gift-ribbon{position:absolute;left:72px;width:14px;top:0;bottom:0;background:var(--gold);opacity:.9}
+.ejire-art .tag{position:absolute;right:39px;top:56px;width:76px;height:76px;border-radius:50%;background:var(--orange);color:white;display:grid;place-items:center;text-align:center;font-size:8px;text-transform:uppercase;font-weight:800;letter-spacing:.08em;transform:rotate(10deg)}
+.ejire-art .pattern{position:absolute;border:1px solid rgba(18,59,44,.18);border-radius:50%}
+.ejire-art .pattern-a{width:520px;height:520px}
+.ejire-art .pattern-b{width:690px;height:690px}
+.ejire-art .story-card{width:300px;height:390px;background:#f7f1e3;border:1px solid rgba(18,59,44,.15);border-radius:26px;box-shadow:0 30px 60px rgba(57,45,15,.2);transform:rotate(-5deg);display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--green);z-index:1;text-align:center}
+.ejire-art .story-card .tiny{font-size:8px;letter-spacing:.25em;font-weight:800}
+.ejire-art .story-card>strong{font-family:var(--serif);font-size:51px}
+.ejire-art .country-shape{width:104px;height:113px;margin:18px 0;background:var(--green);color:var(--gold);display:grid;place-items:center;font-weight:800;letter-spacing:.2em;clip-path:polygon(22% 5%,75% 0,100% 22%,82% 60%,65% 100%,30% 88%,5% 55%,0 23%)}
+.ejire-art .story-card small{font-size:9px;color:var(--muted)}
+.ejire-art .pack{position:absolute;border-radius:18px;box-shadow:0 26px 44px rgba(56,39,20,.16);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.ejire-art .pack-one{left:70px;top:55px;width:225px;height:300px;background:#e9bb54;color:var(--green);transform:rotate(-7deg)}
+.ejire-art .pack-one span{font-family:var(--serif);font-size:33px;line-height:.95}
+.ejire-art .pack-one small{font-size:8px;max-width:140px;margin-top:24px}
+.ejire-art .pack-two{right:55px;top:100px;width:180px;height:255px;background:#f7f0df;color:var(--green);transform:rotate(9deg);z-index:2}
+.ejire-art .pack-two span{font-size:8px;letter-spacing:.25em;font-weight:800}
+.ejire-art .pack-two strong{font-family:var(--serif);font-size:35px;line-height:.9;margin-top:28px}
+.ejire-art .round-sticker{position:absolute;right:20px;top:45px;width:94px;height:94px;border-radius:50%;background:var(--orange);color:#fff;display:grid;place-items:center;text-align:center;font-size:10px;font-weight:800;letter-spacing:.08em;z-index:3;transform:rotate(8deg)}
+/* Reused from salzyff/blaykik-store/src/styles.css. Shapes are original CSS placeholders, adapted for Ejire. */
+.ejire-art{position:relative;width:100%;height:100%;overflow:hidden;isolation:isolate;--gold:#d4aa6e;--orange:#ad593f}
+.art-stage{width:500px;height:500px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) scale(var(--art-scale,1));transform-origin:center}
+.hero-art{min-height:500px;--art-scale:.9;background:#e6ddc9;border-radius:130px 4px 4px 4px}
+.ejire-art.hero-art .sun-disc{width:390px;height:390px;right:40px;top:45px;background:linear-gradient(145deg,#d4aa6e,#e8c994)}
+.ejire-art.hero-art .leaf-a{right:360px;top:68px}
+.ejire-art.hero-art .leaf-b{right:10px;bottom:70px}
+.ejire-art.hero-art .hero-pouch{left:72px;top:90px}
+.ejire-art.hero-art .hero-pouch strong{font-size:43px;line-height:1}
+.ejire-art.hero-art .hero-pouch small{line-height:1.6}
+.ejire-art .pack-pill{margin-top:auto;background:var(--green);color:#f7e8c3;border-radius:99px;font-size:7px;letter-spacing:.12em;font-weight:700;padding:7px 10px}
+.ejire-art.hero-art .hero-bowl{left:15px;bottom:23px}
+.ejire-art .hero-side-pack{position:absolute;right:17px;top:205px;width:145px;height:208px;border-radius:12px 12px 20px 20px;transform:rotate(9deg);background:var(--green);color:var(--cream);box-shadow:0 20px 40px #173c2d25;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:15px}
+.ejire-art .hero-side-pack span{font-size:10px;letter-spacing:2px;font-weight:700}
+.ejire-art .hero-side-pack strong{font-family:var(--serif);font-weight:400;font-size:26px;line-height:1.1}
+.ejire-art .hero-side-pack small{font-size:6px;letter-spacing:1px}
+.hero-visual>.hero-art{height:100%}
+.product-image .ejire-art{min-height:100%;padding-top:30px}
+.product-image-garri{background:#e4dccb}
+.product-image-gifts{background:#d8ddca}
+.product-image-bulk{background:#e3dbc8}
+.ejire-art .pouch{width:148px;height:202px}
+.ejire-art .pouch strong{font-size:26px}
+.ejire-art .gift-box{transform:rotate(-5deg)}
+.ejire-art .gift-box span,.ejire-art .gift-box small{position:relative;z-index:1}
+.ejire-art .gift-box span{background:var(--green);padding:7px;font-size:26px}
+.ejire-art .gift-box small{background:var(--green);padding:3px;font-size:7px}
+.ejire-art .tag{right:calc(50% - 120px);top:calc(50% - 94px);background:var(--rust)}
+.ejire-art .basket,.ejire-art .basket-back,.ejire-art .food{left:50%}
+.ejire-art .basket{bottom:52px;transform:translateX(-50%)}
+.ejire-art .basket-back{bottom:101px;transform:translateX(-50%)}
+.ejire-art .food-1{bottom:119px;transform:translateX(-92px)}
+.ejire-art .food-2{bottom:119px;right:auto;transform:translateX(24px)}
+.ejire-art .food-3{bottom:126px;transform:translateX(-19px)}
+.ejire-art .basket strong{font-size:19px;line-height:1.3}
+.story-art{display:grid;place-items:center;background:#b9bea6;min-height:600px}
+.story-art .pattern-a{width:400px;height:400px}
+.story-art .pattern-b{width:570px;height:570px}
+.ejire-art .story-card{width:275px;height:355px;border-radius:18px}
+.ejire-art .story-card>strong{font-size:47px}
+.ejire-art .story-card small{max-width:170px;line-height:1.7}
+.ejire-art .country-shape{color:var(--gold);font-size:14px}
+.serving-art{background:#e0dbc7;display:grid;place-items:center}
+.serving-art .serving-scene{position:relative;width:300px;height:250px;display:grid;place-items:center}
+.ejire-art.serving-art .hero-bowl{width:238px;height:105px;left:31px;bottom:65px;transform:rotate(4deg)}
+.ejire-art.serving-art .bowl-grain{width:214px;height:75px;left:12px;top:-23px}
+.ejire-art .serving-disc{position:absolute;inset:0;background:#d4aa6e55;border-radius:50%;width:280px;height:280px;top:-15px;left:10px}
+.ejire-art .serving-scene .pouch{transform:rotate(-7deg)}
+.ejire-art .serving-scene .gift-box{transform:rotate(7deg)}
+.souvenir-art.ejire-art{min-height:400px;--art-scale:.76;background:none}
+.ejire-art .pack-one{left:45px;top:70px;background:#d4aa6e}
+.ejire-art .pack-one span{font-size:36px}
+.ejire-art .pack-two{right:35px;top:125px}
+.ejire-art .round-sticker{right:15px;top:55px;background:var(--green);border:1px solid #f5f1e755}
+.ejire-art .pack-two strong{font-size:34px}
+.hero-image-label{background:#f5f1e7dd;border-radius:2px;padding:7px 10px;left:20px;right:20px;bottom:14px;color:var(--green)}
+.photo-note{background:#f5f1e7dd;padding:7px 10px;border-radius:2px}
+.bag-item-icon.ejire-art{width:55px;height:65px;padding:0}
+.bag-item-icon .pouch{width:29px;height:42px;border-radius:3px;padding:0;box-shadow:none;transform:rotate(-5deg)}
+.bag-item-icon .pouch span{font-size:5px;letter-spacing:.4px}
+.bag-item-icon .pouch strong{font-family:var(--serif);font-size:8px;line-height:1;margin:4px 0 0}
+@media(min-width:1600px){.hero-art{min-height:610px;--art-scale:1.08}.product-image .pouch,.product-image .gift-box{transform:scale(1.2) rotate(-3deg)}}
+@media(max-width:1100px){.hero-art{min-height:470px;--art-scale:.8}.story-art{min-height:590px}.souvenir-art.ejire-art{--art-scale:.65;min-height:390px}.product-image .basket{width:168px}}
+@media(max-width:800px){.hero-art{min-height:385px;--art-scale:.65;border-top-left-radius:90px}.story-art{min-height:570px}.ejire-art .story-card{transform:scale(.86) rotate(-5deg)}.souvenir-art.ejire-art{--art-scale:.55;min-height:390px}.product-image .pouch{width:125px;height:170px;padding:15px}.product-image .pouch strong{font-size:22px}.product-image .gift-box{width:135px;height:160px}.product-image .gift-box span{font-size:22px}.product-image .tag{right:calc(50% - 94px);top:36px;width:60px;height:60px;font-size:7px}.product-image .basket{width:145px}.product-image .basket-back{width:130px}.product-image .basket strong{font-size:15px}.product-image .food-1{transform:translateX(-70px);width:55px;height:55px}.product-image .food-2{transform:translateX(16px);width:52px;height:52px}.product-image .food-3{transform:translateX(-22px);width:45px;height:45px}}
+@media(max-width:600px){.hero-visual>.hero-art{min-height:365px;height:365px;border-top-left-radius:110px;--art-scale:.78}.product-image .pouch{width:160px;height:216px}.product-image .pouch strong{font-size:29px}.product-image .gift-box{width:175px;height:195px}.product-image .gift-box span{font-size:29px}.product-image .tag{right:calc(50% - 135px);top:65px;width:76px;height:76px;font-size:8px}.product-image .basket{width:210px;bottom:65px;height:98px}.product-image .basket-back{width:183px;height:150px;bottom:124px}.product-image .basket strong{font-size:20px}.product-image .food{bottom:146px}.product-image .food-1{transform:translateX(-100px);width:74px;height:74px}.product-image .food-2{transform:translateX(25px);width:70px;height:70px}.product-image .food-3{transform:translateX(-30px);width:66px;height:66px;bottom:156px}.story-art{min-height:330px;height:330px}.ejire-art .story-card{transform:scale(.72) rotate(-5deg)}.story-art .pattern-a{width:310px;height:310px}.story-art .pattern-b{width:430px;height:430px}.souvenir-art.ejire-art{height:330px;min-height:330px;--art-scale:.62}.hero-image-label{font-size:8px}.bag-item-icon .pouch{width:25px;height:37px}}
+@media(max-width:360px){.hero-visual>.hero-art{--art-scale:.66}.souvenir-art.ejire-art{--art-scale:.52}}
+@media(max-width:600px){.bag-item-icon.ejire-art{width:40px;height:52px}}
+
